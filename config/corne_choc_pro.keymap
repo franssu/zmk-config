@@ -70,7 +70,7 @@
             >;
         };
 
-        extra_layer_1 {
+        NAV {
             display-name = "NAV";
             bindings = <
 &kp TAB         &trans    &kp UP_ARROW    &trans           &kp PAGE_UP    &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
