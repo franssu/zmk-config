@@ -38,7 +38,7 @@
         compatible = "zmk,keymap";
 
         default_layer {
-            display-name = "QWERTY";
+            display-name = "PC";
 
             // --------------------------------------------------------------------------------
             // |  TAB |  Q  |  W  |  E  |  R  |  T  |  MUTE |  PP   |  Y  |  U   |  I  |  O  |  P  | BSPC |
@@ -55,7 +55,7 @@
         };
 
         layer_mac {
-            display-name = "QWERTY";
+            display-name = "MAC";
             bindings = <
 &trans  &kp Q  &kp W  &kp E     &kp R      &kp T  &trans  &trans  &kp Y  &kp U      &kp I      &kp O    &kp P     &trans
 &trans  &kp A  &kp S  &kp D     &kp F      &kp G  &trans  &trans  &kp H  &kp J      &kp K      &kp L    &kp SEMI  &trans
